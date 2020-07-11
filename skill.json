@@ -1,0 +1,87 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "The party game for adults that will keep you guessing!",
+          "examplePhrases": [
+            "Alexa start incoherent game",
+            "Alexa open incoherent game",
+            "Alexa help"
+          ],
+          "keywords": [
+            "party",
+            "game",
+            "trivia",
+            "fun",
+            "laughs",
+            "jokes",
+            "incoherent",
+            "gibberish",
+            "guessing",
+            "incohearent",
+            "friends",
+            "conversation",
+            "talking",
+            "meme",
+            "adult",
+            "mature"
+          ],
+          "name": "Incohearent",
+          "description": "• GET TALKING: This is the party game for adults that will keep you guessing! Let the laughs begin as you compete with friends to see who can make the most sense out of the nonsense.\n\n• HOW TO PLAY: To start the game, just tell Alexa to \"start Incohearent Game.\" Alexa will spout out some gibberish that will represent a phrase for you to guess. You can guess as many times as you want, and you\u0027ll be rewarded with a new phrase each time you guess correctly. To stop the game at any time, just tell Alexa \"stop\" or \"cancel.\" Compete with your friends for some laughs and good times. Enjoy!\n\n• ADULTS ONLY: This game contains mature language. Audience discretion is advised.\n\nDisclaimer: This is not affiliated with the popular card game of the same name. We encourage you to check out the original if you enjoy this Alexa game.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-US",
+            "language": "en"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "n/a",
+      "category": "PARTY_GAMES",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:201343500755:function:57b1c96e-72ac-4cc3-971f-4bfea5ba5194:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:201343500755:function:57b1c96e-72ac-4cc3-971f-4bfea5ba5194:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:201343500755:function:57b1c96e-72ac-4cc3-971f-4bfea5ba5194:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:201343500755:function:57b1c96e-72ac-4cc3-971f-4bfea5ba5194:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
